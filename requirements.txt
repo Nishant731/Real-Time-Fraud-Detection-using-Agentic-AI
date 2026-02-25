@@ -1,0 +1,29 @@
+# requirements.txt
+# Install with: pip install -r requirements.txt
+
+# FastMCP for MCP servers
+fastmcp>=0.1.0
+
+# ONNX Runtime for ML model inference
+onnxruntime>=1.16.0
+
+# Database drivers
+mysql-connector-python>=8.2.0  # MariaDB
+neo4j>=5.14.0  # Uncomment when implementing Memgraph
+qdrant-client>=1.9.2  # Uncomment when implementing Qdrant
+
+# LangChain for AI agent
+langgraph>=0.0.20
+langchain-google-genai>=0.0.6
+langchain-core>=0.1.0
+
+# MCP Client
+mcp>=0.1.0
+
+# Utilities
+pydantic>=2.5.0
+python-dotenv>=1.0.0
+numpy>=1.24.0
+
+# Optional: For better logging
+colorlog>=6.8.0
